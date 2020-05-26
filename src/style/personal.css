@@ -1,17 +1,33 @@
 .articalPersonal  {
     display: flex;
     flex-direction: column;
+    
+}
+.name-personal {
+    display: flex;
     background-color: rgba(245, 205, 176, 0.521);
+
+}
+.nameandPic-personal {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.bio-personal {
+    margin-top: 10em;
 }
 
 .image-personal {
     width: 25em;
 }
-
-.spouse-personal {
+.family-personal {
     display: flex;
     flex-direction: column;
     background-color: burlywood;
+}
+
+.spouse-personal {
+    
 }
 
 
@@ -20,10 +36,6 @@
     width: 25em;
 }
 
-footer {
-    display: flex;
-
-}
 footer {
     display: flex;
     flex-direction: row;
