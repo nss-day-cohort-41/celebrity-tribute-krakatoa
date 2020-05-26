@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="personal.css">
+    <link rel="stylesheet" href="style/personal.css">
 </head>
 <body>
 <!--Birth date with country of origin.
@@ -15,31 +14,57 @@
     List of immediate family members (for example: spouse, children, siblings, parents) - minimum 3 with images.
         For multiple spouses, show begin/end dates. -->
 
-    <article>
-        <section>
+    <article class="articalPersonal">
+        <section class="name-personal">
             <h1>Bela Fleck</h1>
-            <img src="" alt="">
+            <figure>
+                <img src="images/Bela.jpg" class="image-personal" alt="Photo of Bela Fleck playing bajo on stage.">
+                <figcaption>photo credit: Julianne G. Macie
+                    Copyright: (C) Copyright2011</figcaption>
+            </figure>
+            
         </section>
-        <section>
-            <h3>Birth date</h3>
-            <p>10 July, 1958</p>
-            <p>born in New York, NY, US</p>
+        <section class="birthdate-personal">
+            <p>Born: 10 July, 1958</p>
+            <p>New York, NY, US</p>
         </section>
         <section>
             <h3>residence</h3>
             <p>Nashville, TN, US</p>
         </section>
-        <section>
+        <section class="family-personal">
             <h3>Family</h3>
-                <div>  
+                <div class="spouse-personal">  
                 <h4>Spouse</h4>
                 <p>Abigail Washburn</p>
+                <figure>
+                    <img src="images/Abigail.jpg" class="image-spouse" alt="photo of Abigail Washburn">
+                </figure>
+                <figure>
+                    <img src="images/BelaandAbigail.png" class="image-spouse" alt="Bela and Abigail playing together.">
+                </figure>
                 </div>
         </section>
     </article>
     
 
+<footer>
+    <div class="socialMedia">
 
+        <ul>
+            <li><a href="https://www.facebook.com/belafleckbanjo" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/belafleckbanjo" target="_blank">twitter</a></li>
+            <li><a href="https://www.instagram.com/belafleckbanjo/" target="_blank">Instagram</a></li>
+        </ul>
+
+            
+            
+            
+        
+        
+        
+    </div>
+</footer>
 
 </body>
 </html>

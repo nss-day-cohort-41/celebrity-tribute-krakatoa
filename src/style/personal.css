@@ -1,0 +1,41 @@
+.articalPersonal  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 205, 176, 0.521);
+}
+
+.image-personal {
+    width: 25em;
+}
+
+.spouse-personal {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+
+.image-spouse {
+    align-self: flex-end;
+    width: 25em;
+}
+
+footer {
+    display: flex;
+
+}
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialMedia ul {
+    display: flex;
+    
+}
+.socialMedia ul li {
+    width: 20em;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
