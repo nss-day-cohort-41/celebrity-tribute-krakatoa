@@ -1,0 +1,43 @@
+.navigation-bar {
+    display: flex;
+    background-color: blue;
+    margin-top: -0.5em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+main {
+    flex-wrap: wrap;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 1px;
+}
+ul li {
+    padding: 1em;
+}
+ul li a {
+    color: black;
+}
+.index-section-1-image {
+    width: 300px;
+    height: 300px;
+    border: none;
+    Box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 50%;
+    margin: 1em;
+}
+.index-image-w-text {
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.section-2-index {
+ display: flex;
+}
+
+
+.video-index {
+    display: flex;
+    justify-content: center;
+}
