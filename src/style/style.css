@@ -35,7 +35,7 @@
     /* margin-left: -0.3em;
     margin-right: -0.3em; */
     padding: 0.5em;
-    color:white
+    color:white;
 }
 .artist-summary-background{
     background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -137,6 +137,48 @@ ul li a:hover {
   }
   .text-center {
       text-align: center;
+  }
+  /* career */
+  /* This make the album cover pic change with the screen */
+  .container {
+    display: grid;
+    grid-gap: 5px;
+    /* repeats, auto-fit: create a grid with responsive behavior minmax: is the minmax size of grid track */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 350px); 
+  }
+  /* for ablum cover pic */
+  .container > div > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  /* for h1 container box*/
+  .containerhead {
+      color: white;
+      background-color: black;
+      width: 100%;
+      height: 75px;
+      opacity: .5 ;
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: 50px;
+    }
+    /* for h2 and info section boxes */
+    .containerhead2 {
+        color: white;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: .8 ;
+        text-align: center;
+        flex-wrap: warp;
+       font-size: 14px;
+      }
+    
+      
+     
   } .section-3 {
       color: white;
       background-color: rgba(0, 0, 0, 0.822);
