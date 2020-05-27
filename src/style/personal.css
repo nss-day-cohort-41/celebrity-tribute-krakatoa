@@ -1,0 +1,53 @@
+.articalPersonal  {
+    display: flex;
+    flex-direction: column;
+    
+}
+.name-personal {
+    display: flex;
+    background-color: rgba(245, 205, 176, 0.521);
+
+}
+.nameandPic-personal {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.bio-personal {
+    margin-top: 10em;
+}
+
+.image-personal {
+    width: 25em;
+}
+.family-personal {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+.spouse-personal {
+    
+}
+
+
+.image-spouse {
+    align-self: flex-end;
+    width: 25em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialMedia ul {
+    display: flex;
+    
+}
+.socialMedia ul li {
+    width: 20em;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
