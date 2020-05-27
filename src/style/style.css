@@ -114,16 +114,7 @@ ul li a:hover {
       height: 100%;
       object-fit: cover;
   }
-  .containerheadnav {
-    color: white;
-    background-color: black;
-    width: 100%;
-    height: 75px;
-    opacity: .5 ;
-    flex-wrap: wrap;
-    text-align: center;
-    font-size: 15px;
-  }   
+  
   /* for h1 container box*/
   .containerhead {
       color: white;
@@ -144,7 +135,7 @@ ul li a:hover {
         opacity: .8 ;
         text-align: center;
         flex-wrap: warp;
-       font-size: 15px;
+       font-size: 14px;
       }
     
       
