@@ -1,0 +1,91 @@
+*,*:before, *:after{
+    box-sizing:border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+.image{
+    width: auto;
+    justify-content: auto;
+
+}
+
+.wrapper {
+    background-color: white;
+    margin: -1.5em 7em -5em 7em;
+    
+}
+#main{
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 0%;
+}
+
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+#artist {
+  width: 30%;
+  border: 1px dotted;
+  padding: 0.1em;
+  background-color: burlywood;
+  justify-content: flex-start;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color:#faebd7;
+
+}
+.flex-item{
+    background-color: lightblue;
+    flex: 1;
+    margin: 1em;
+}
+
+.section-item{
+    margin: 0 auto;
+    width: 100%;
+}
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-img-top{
+    width: 300px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:1em;
+    margin:.5em;
+    width: min-content;
+   
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+  .text-center{
+      text-align: center;
+  }
+
