@@ -1,0 +1,152 @@
+.navigation-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.753);
+   width: 100%;
+    margin-left: -1em;
+    margin-right: -1em;
+    position: fixed;
+}
+.body-container{
+    margin: 0em,7em,7em,0em;
+}
+.logo {
+    border: none;
+    border-radius: 50%;
+}
+.image-background {
+    background-image: url("https://www.discovercrystalriverfl.com/imager/s3_us-east-1_amazonaws_com/crystalriver-2019/images/RF-Music-Events/Bluegrass_Festival_8571d4edf4dcf5c16422697d722b43ec.png");
+    margin: -1em;
+}
+.quote-banner {
+    background-color: rgba(0, 0, 0, 0.69);
+    /* margin-left: -0.3em;
+    margin-right: -0.3em; */
+    padding: 0.5em;
+    color:white;
+}
+.artist-summary-background{
+    background-color: rgba(32, 9, 9, 0.884);
+    margin:-1em;
+    margin-top: 1em;
+    padding: 1em;
+}
+.artist-summary{
+    text-align: center;
+}
+
+main {
+    flex-wrap: wrap;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 1px;
+}
+ul li {
+    padding: 1em;
+}
+ul li a {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+ul li a:hover {
+    color: wheat;
+}
+.index-section-1-image {
+    width: 300px;
+    height: 300px;
+    border: none;
+    Box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 50%;
+    margin: 1em;
+}
+.para-2 {
+    width: fit-content;
+}
+.index-image-w-text {
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.section-2-index {
+ flex-wrap: wrap;
+}
+
+.side-text-right {
+   height: 325px;
+}
+.video-index {
+    display: flex;
+    justify-content: center;
+}
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img-top{
+    width: 300px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:1em;
+    margin:.5em;
+    width: min-content;
+    
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .text-center {
+      text-align: center;
+  }
+  /* This make the album cover pic change with the screen */
+  .container {
+    display: grid;
+    grid-gap: 5px;
+    /* repeats, auto-fit: create a grid with responsive behavior minmax: is the minmax size of grid track */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 350px); 
+  }
+  /* for ablum cover pic */
+  .container > div > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .containerheadnav {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    opacity: .5 ;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 15px;
+  }   
+  /* for h1 container box*/
+  .containerhead {
+      color: white;
+      background-color: black;
+      width: 100%;
+      height: 75px;
+      opacity: .5 ;
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: 50px;
+    }
+    /* for h2 and info section boxes */
+    .containerhead2 {
+        color: white;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: .8 ;
+        text-align: center;
+        flex-wrap: warp;
+       font-size: 15px;
+      }
+    
+      
+     
+
