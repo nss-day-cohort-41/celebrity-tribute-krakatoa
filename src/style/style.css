@@ -137,8 +137,8 @@ ul li a:hover {
   }
   .text-center {
       text-align: center;
-<<<<<<< HEAD
   }
+  /* career */
   /* This make the album cover pic change with the screen */
   .container {
     display: grid;
@@ -179,7 +179,6 @@ ul li a:hover {
     
       
      
-=======
   } .section-3 {
       color: white;
       background-color: rgba(0, 0, 0, 0.822);
@@ -192,5 +191,4 @@ ul li a:hover {
       background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   }
 
->>>>>>> master
 
