@@ -2,7 +2,7 @@
 
 .navigation-bar {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.863);
    width: 100%;
     margin-left: -1em;
     margin-right: -1em;
@@ -19,12 +19,19 @@
     background-image: url("https://coolbackgrounds.io/images/backgrounds/white/white-triangle-369b8d2d.jpg");
     margin: -1em;
 }
-.banner-row{
-    justify-content: left;
-}
 
+.col-1{
+    order: 1;
+    display: flex;
+
+}
+.col-2{
+    order:2;
+    display: flex;
+
+}
 .quote-banner {
-    background-color: rgba(0, 0, 0, 0.69);
+    background-color: rgba(0, 0, 0, 0.877);
     /* margin-left: -0.3em;
     margin-right: -0.3em; */
     padding: 0.5em;
@@ -85,10 +92,21 @@ ul li a:hover {
     align-self: flex-end;
     flex-wrap: wrap;
 }
-
-.index-image-w-text {
-    text-align: center;
+.index-banner_image{
+    display: inline-block;
+        width: 46%;
+        margin-top: 3em;
 }
+.index-banner_text{
+    display: inline-block; 
+    vertical-align: top;
+    width: 25%;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: "Hoefler Text";
+  }
+
 .section-2-index {
  flex-wrap: wrap;
 }
