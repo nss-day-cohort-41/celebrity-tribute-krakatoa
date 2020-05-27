@@ -144,3 +144,7 @@ ul li a:hover {
 }
 
 
+footer {
+    display: flex;
+    flex-direction: row;
+}
