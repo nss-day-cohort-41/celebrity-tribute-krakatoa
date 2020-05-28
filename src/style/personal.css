@@ -7,6 +7,7 @@ body {
 .articalPersonal  {
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 245, 238, 0.212);
     
 }
 .name-personal {
@@ -47,6 +48,7 @@ body {
 footer {
     display: flex;
     flex-direction: row;
+    background-color: rgba(255, 245, 238, 0.288);
 }
 
 .socialMedia ul {
@@ -60,4 +62,11 @@ footer {
     justify-content: space-evenly;
     color: black;
 }
+a {
+    color: blue;
+}
 
+a:visited {
+    color: purple;
+    font-weight: bolder;
+}
