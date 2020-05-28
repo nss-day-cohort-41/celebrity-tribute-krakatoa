@@ -1,3 +1,7 @@
+article {
+    background-image: url(/src/images/mtn.jpg);
+}
+
 .articalPersonal  {
     display: flex;
     flex-direction: column;
@@ -5,7 +9,7 @@
 }
 .name-personal {
     display: flex;
-    background-color: rgba(245, 205, 176, 0.521);
+  /*  background-color: rgba(245, 205, 176, 0.521); */
 
 }
 .nameandPic-personal {
@@ -23,7 +27,7 @@
 .family-personal {
     display: flex;
     flex-direction: column;
-    background-color: burlywood;
+   /* background-color: burlywood; */
 }
 
 .spouse-personal {
