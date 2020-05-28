@@ -1,11 +1,21 @@
+body {
+    background-image: url("/images/mtn.jpg");
+    background-size: 150%;
+    font-weight: 300;
+}
+
+
+article {
+    display: flex;
+}
 .articalPersonal  {
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 245, 238, 0.212);
     
 }
 .name-personal {
     display: flex;
-    background-color: rgba(245, 205, 176, 0.521);
 
 }
 .nameandPic-personal {
@@ -14,40 +24,100 @@
     align-content: flex-start;
 }
 .bio-personal {
-    margin-top: 10em;
+    margin-top: 5em;
+    background-image: url("/images/nash.jpg");
+    background-size: 100%;
+    
+}
+.bio-personal p {
+    background-color: rgba(255, 250, 250, 0.253);
+}
+.bio-personal h1 {
+    display: flex;
+    justify-content: center;
 }
 
 .image-personal {
-    width: 25em;
+    width: 75%;
 }
 .family-personal {
     display: flex;
-    flex-direction: column;
-    background-color: burlywood;
+    flex-direction: row;
+    height: 200%;
+    background-color: rgba(11, 105, 105, 0.473);
+   
+}
+
+.abbyBio {
+    display: flex;
+    flex: 1 1 50%;
+    margin-top: 10%;
+
 }
 
 .spouse-personal {
-    
+    flex: 1 1 50%;
+    height: 30em;
 }
 
 
 .image-spouse {
+    flex-direction: row;
+    justify-content: space-evenly;
     align-self: flex-end;
-    width: 25em;
+    width: 40%;
 }
 
 footer {
     display: flex;
     flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.863);
+    justify-content: center;
 }
 
 .socialMedia ul {
     display: flex;
+    list-style-type: none;
+    
     
 }
 .socialMedia ul li {
     width: 20em;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    color: black;
+}
+a {
+    color: snow;
 }
 
+a:visited {
+    color: snow;
+    font-weight: bolder;
+}
+
+header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.863);
+    flex-direction: row;
+}
+nav {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-content: center;
+}
+nav ul {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
