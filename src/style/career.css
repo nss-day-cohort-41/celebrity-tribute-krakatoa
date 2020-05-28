@@ -12,6 +12,13 @@
       height: 100%;
       object-fit: cover;
   }
+  .navigation-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.863);
+   width: 100%;
+    margin-left: -1em;
+    margin-right: -1em;
+}
   
   /* for h1 container box*/
   .containerhead {
