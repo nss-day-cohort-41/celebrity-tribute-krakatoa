@@ -1,5 +1,7 @@
-article {
-    background-image: url(/src/images/mtn.jpg);
+body {
+    background-image: url("/images/mtn.jpg");
+    background-size: 150%;
+    font-weight: 300;
 }
 
 .articalPersonal  {
@@ -36,8 +38,10 @@ article {
 
 
 .image-spouse {
+    flex-direction: row;
+    justify-content: space-evenly;
     align-self: flex-end;
-    width: 25em;
+    width: 30%;
 }
 
 footer {
@@ -48,10 +52,12 @@ footer {
 .socialMedia ul {
     display: flex;
     
+    
 }
 .socialMedia ul li {
     width: 20em;
     flex-direction: row;
     justify-content: space-evenly;
+    color: black;
 }
 
