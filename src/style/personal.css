@@ -3,6 +3,18 @@
     flex-direction: column;
     
 }
+.nav-font {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.navigation-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.863);
+   width: 100%;
+    margin-left: -1em;
+    margin-right: -1em;
+    position: fixed;
+}
 .name-personal {
     display: flex;
     background-color: rgba(245, 205, 176, 0.521);
