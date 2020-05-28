@@ -12,7 +12,6 @@ body {
 }
 .name-personal {
     display: flex;
-  /*  background-color: rgba(245, 205, 176, 0.521); */
 
 }
 .nameandPic-personal {
@@ -21,7 +20,12 @@ body {
     align-content: flex-start;
 }
 .bio-personal {
-    margin-top: 10em;
+    margin-top: 5em;
+    background-image: url("/images/nash.jpg");
+    background-size: 100%;
+}
+.bio-personal p {
+    background-color: rgba(255, 250, 250, 0.096);
 }
 
 .image-personal {
@@ -30,7 +34,7 @@ body {
 .family-personal {
     display: flex;
     flex-direction: column;
-   /* background-color: burlywood; */
+   
 }
 
 .spouse-personal {
@@ -49,17 +53,19 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 245, 238, 0.288);
+    justify-content: center;
 }
 
 .socialMedia ul {
     display: flex;
+    list-style-type: none;
     
     
 }
 .socialMedia ul li {
     width: 20em;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     color: black;
 }
 a {
