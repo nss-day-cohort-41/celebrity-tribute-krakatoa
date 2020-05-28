@@ -11,7 +11,12 @@ html {
     justify-content: auto;
 
 }
-
+.artist-title-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
 .wrapper {
     background-color: white;
     margin: -1.5em 7em -5em 7em;
@@ -22,7 +27,12 @@ html {
     font-size: large;
     padding-left: 0%;
 }
-
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em;
+    justify-content: center;
+}
 
 
 
