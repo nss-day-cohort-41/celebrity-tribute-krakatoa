@@ -76,3 +76,18 @@ a:visited {
     color: purple;
     font-weight: bolder;
 }
+
+header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.863);
+    flex-direction: row;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    justify-content: space-evenly;
+}
+}
