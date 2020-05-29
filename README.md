@@ -1,4 +1,31 @@
-# Nashville Software School Tribute Agency
+# Celebrity Tribute Page
+This was a group project to design a celebrity tribute page.  
+
+## Description
+The purpose of this project was to build a multi-page web-app in a team environment.  The page uses CSS Flex-box to display basic responsivity.  The parameters for each page are outlined later in this document.  
+
+## Contributors
+This project was created by Faith Magras, Tasha Lane, Anthony Johnson, and Brendan Abernethy.
+
+## installation 
+Run the following commands in terminal:
+
+```
+npm -i -g serve
+serve
+
+```
+
+
+
+
+
+
+
+## Project guidelines
+Below are the guidelines for the project:
+
+## Nashville Software School Tribute Agency
 
 Welcome fans.
 
